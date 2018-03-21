@@ -13,6 +13,8 @@ class Example {
     @Expose
     var hits: List<Hit>? = null
     @SerializedName("total")
+	
+	
     @Expose
     var total: Int? = null
 
